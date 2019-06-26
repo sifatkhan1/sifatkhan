@@ -55,11 +55,13 @@ listgrup = []
 vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
 
-b="\033[0;34m"
-g="\033[1;32m"
-w="\033[1;37m"
-r="\033[1;31m"
-y="\033[1;33m"
+bl="\033[0;34m"
+gr="\033[1;32m"
+wh="\033[1;37m"
+re="\033[1;31m"
+ye="\033[1;33m"
+ij="\033[32;1m"
+bi="\033[34;1m"
 cyan = "\033[0;36m"
 lgray = "\033[0;37m"
 dgray = "\033[1;30m"
@@ -74,15 +76,19 @@ def login():
         menu()
     except (KeyError, IOError):
         os.system('clear')
-	print("{}  ---    ---  ---       --- ").format(g)
-	print("   ---  ---   ------ ------ ")
-	print("    ------    ---  ---  --- ")
-	print("   ---  ---   ---  ---  --- ")
-	print("  ---    ---  ---   -   --- ")
-	print(" ___________________________")
-	print("{} Author  : Mr.XbalMeonk     ").format(b)
-	print(" facebook: Cengir Eea       ")
-	    
+	print
+	print
+	print
+	print("{}  ___    ___ {} ___       ___ ").format(gr,bi)
+	print("{}   ___  ___  {} ______ ______ ").format(gr,bi)
+	print("{}    ______   {} ___  ___  ___ ").format(gr,bi)
+	print("{}   ___  ___  {} ___  ___  ___ ").format(gr,bi)
+	print("{}  ___    ___ {} ___   _   ___ ").format(gr,bi)
+	print("{}  +-----------------------------+").format(ij)
+	print("{}  |{} Author  : Mr.XbalMeonk      {}| ").format(ye,ij,ye)
+	print("{}  |{} facebook: Cengir Eea        {}| ").format(ye,bi,ye)
+	print("{}  |{} Youtube : Xbal Meonk        {}| ").format(ye,re,ye)
+	print("{}  +-----------------------------+").format(ij)    
         print 40 * '\x1b[1;97m\xe2\x95\x90'
         print '\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mLOGIN AKUN FACEBOOK AKUN FB \x1b[1;91m[\xe2\x98\x86]'
         id = raw_input('\x1b[1;91m[+] \x1b[1;36mUsername FB \x1b[1;91m:\x1b[1;92m ')
