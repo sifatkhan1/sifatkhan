@@ -74,10 +74,15 @@ def login():
         menu()
     except (KeyError, IOError):
         os.system('clear')
-	print("  ---  ---  ---     --- ").format(g)
-	print("   ------   ----- ----- ")
-	print("  ---  ---  --- --- --- ")
-	print(" >>>>>>>>>>>>>>>>>>>>>>>>")
+	print("{}  ---    ---  ---       --- ").format(g)
+	print("   ---  ---   ------ ------ ")
+	print("    ------    ---  ---  --- ")
+	print("   ---  ---   ---  ---  --- ")
+	print("  ---    ---  ---   -   --- ")
+	print(" ___________________________")
+	print("{} Author  : Mr.XbalMeonk     ").format(b)
+	print(" facebook: Cengir Eea       ")
+	    
         print 40 * '\x1b[1;97m\xe2\x95\x90'
         print '\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mLOGIN AKUN FACEBOOK AKUN FB \x1b[1;91m[\xe2\x98\x86]'
         id = raw_input('\x1b[1;91m[+] \x1b[1;36mUsername FB \x1b[1;91m:\x1b[1;92m ')
