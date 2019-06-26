@@ -143,28 +143,7 @@ def menu():
             keluar()
 
     os.system('clear')
-clear
-bi='\033[34;1m' #biru
-i='\033[32;1m' #ijo
-pur='\033[35;1m' #purple
-cy='\033[36;1m' #cyan
-me='\033[31;1m' #merah
-pu='\033[37;1m' #putih
-ku='\033[33;1m' #kuning
-# Jangan Recode Ya gayn
-echo
-echo
-echo 
-echo $me"  ...    ... ...      ..."
-echo $me"   ...  ...  .....  ....."
-echo $me"    ......   ... .... ..."
-echo $me"   ...  ...  ...  ..  ..."
-echo $me"  ...    ... ...      ..."
-echo $i"  Author : Mr.XbalMeonk "
-echo $bi"  Fb     : Cengir Eea "
-echo $ku"+───────────────────────────+
-
-   
+    print logo
     print '\x1b[1;97m\xe2\x95\x94' + 40 * '\xe2\x95\x90'
     print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m Nama \x1b[1;91m: \x1b[1;92m' + nama
     print '\x1b[1;97m\xe2\x95\x9a' + 40 * '\xe2\x95\x90'
