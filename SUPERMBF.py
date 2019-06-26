@@ -63,7 +63,26 @@ def login():
         menu()
     except (KeyError, IOError):
         os.system('clear')
-        print logo
+clear
+bi='\033[34;1m' #biru
+i='\033[32;1m' #ijo
+pur='\033[35;1m' #purple
+cy='\033[36;1m' #cyan
+me='\033[31;1m' #merah
+pu='\033[37;1m' #putih
+ku='\033[33;1m' #kuning
+# Jangan Recode Ya gayn
+echo
+echo 
+echo $me"  ...    ... ...      ..."
+echo $me"   ...  ...  .....  ....."
+echo $me"    ......   ... .... ..."
+echo $me"   ...  ...  ...  ..  ..."
+echo $me"  ...    ... ...      ..."
+echo $i"  Author : Mr.XbalMeonk "
+echo $bi"  Fb     : Cengir Eea "
+echo $ku"+──────────────────────────+"
+        
         print 40 * '\x1b[1;97m\xe2\x95\x90'
         print '\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mLOGIN AKUN FACEBOOK AKUN FB \x1b[1;91m[\xe2\x98\x86]'
         id = raw_input('\x1b[1;91m[+] \x1b[1;36mUsername FB \x1b[1;91m:\x1b[1;92m ')
@@ -134,7 +153,7 @@ def menu():
             id = a['id']
         except KeyError:
             os.system('clear')
-            print '\x1b[1;91m[!] \x1b[1;93mSepertinya akun kena Checkpoint'
+            print '\x1b[1;91m[!] \x1b[1;93mMaaf akun kena Checkpoint'
             os.system('rm -rf login.txt')
             time.sleep(1)
             login()
@@ -143,7 +162,28 @@ def menu():
             keluar()
 
     os.system('clear')
-    print logo
+clear
+bi='\033[34;1m' #biru
+i='\033[32;1m' #ijo
+pur='\033[35;1m' #purple
+cy='\033[36;1m' #cyan
+me='\033[31;1m' #merah
+pu='\033[37;1m' #putih
+ku='\033[33;1m' #kuning
+# Jangan Recode Ya gayn
+echo
+echo
+echo 
+echo $me"  ...    ... ...      ..."
+echo $me"   ...  ...  .....  ....."
+echo $me"    ......   ... .... ..."
+echo $me"   ...  ...  ...  ..  ..."
+echo $me"  ...    ... ...      ..."
+echo $i"  Author : Mr.XbalMeonk "
+echo $bi"  Fb     : Cengir Eea "
+echo $ku"+───────────────────────────+
+
+   
     print '\x1b[1;97m\xe2\x95\x94' + 40 * '\xe2\x95\x90'
     print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m Nama \x1b[1;91m: \x1b[1;92m' + nama
     print '\x1b[1;97m\xe2\x95\x9a' + 40 * '\xe2\x95\x90'
