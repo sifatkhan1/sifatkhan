@@ -89,7 +89,7 @@ def login():
 	print("{}  |{} Author  : Mr.XbalMeonk      {}| ").format(ye,ij,ye)
 	print("{}  |{} facebook: Cengir Eea        {}| ").format(ye,bi,ye)
 	print("{}  |{} Youtube : Xbal Meonk        {}| ").format(ye,re,ye)
-	print("{}  +-----------------------------+").format(ij)    
+	print("{}  +-----------------------------+").format(ij)   
         print 40 * '\x1b[1;97m\xe2\x95\x90'
         print '\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mLOGIN AKUN FACEBOOK AKUN FB \x1b[1;91m[\xe2\x98\x86]'
         id = raw_input('\x1b[1;91m[+] \x1b[1;36mUsername FB \x1b[1;91m:\x1b[1;92m ')
@@ -169,12 +169,7 @@ def menu():
             keluar()
 
     os.system('clear')
-    print("{}  +-----------------------------+").format(ij)
-    print("{}  |{} Author  : Mr.XbalMeonk      {}| ").format(ye,ij,ye)
-    print("{}  |{} facebook: Cengir Eea        {}| ").format(ye,bi,ye)
-    print("{}  |{} Youtube : Xbal Meonk        {}| ").format(ye,re,ye) 
-    print("{}  +-----------------------------+").format(ij)    
-    print 40 * '\x1b[1;97m\xe2\x95\x90' 
+    print logo
     print '\x1b[1;97m\xe2\x95\x94' + 40 * '\xe2\x95\x90'
     print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m Nama \x1b[1;91m: \x1b[1;92m' + nama
     print '\x1b[1;97m\xe2\x95\x9a' + 40 * '\xe2\x95\x90'
@@ -229,11 +224,7 @@ def informasi():
         login()
 
     os.system('clear')
-    print("{}  +-----------------------------+").format(ij)
-    print("{}  |{} Author  : Mr.XbalMeonk      {}| ").format(ye,ij,ye)
-    print("{}  |{} facebook: Cengir Eea        {}| ").format(ye,bi,ye)
-    print("{}  |{} Youtube : Xbal Meonk        {}| ").format(ye,re,ye)
-    print("{}  +-----------------------------+").format(ij)    
+    print logo
     print 40 * '\x1b[1;97m\xe2\x95\x90'
     id = raw_input('\x1b[1;91m[+] \x1b[1;92mMasukan ID\x1b[1;97m/\x1b[1;92mNama\x1b[1;91m : \x1b[1;97m')
     jalan('\x1b[1;91m[\xe2\x9c\xba] \x1b[1;92mTunggu sebentar \x1b[1;97m...')
@@ -304,12 +295,7 @@ def menu_hack():
         login()
 
     os.system('clear')
-    print("{}  +-----------------------------+").format(ij)
-    print("{}  |{} Author  : Mr.XbalMeonk      {}| ").format(ye,ij,ye)
-    print("{}  |{} facebook: Cengir Eea        {}| ").format(ye,bi,ye)
-    print("{}  |{} Youtube : Xbal Meonk        {}| ").format(ye,re,ye)
-    print("{}  +-----------------------------+").format(ij)    
-    print 
+    print logo
     print 40 * '\x1b[1;97m\xe2\x95\x90'
     print '\x1b[1;37;40m1. Mini Hack Facebook(\x1b[1;92mTarget\x1b[1;97m)'
     print '\x1b[1;37;40m2. Multi Bruteforce Facebook'
