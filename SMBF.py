@@ -55,6 +55,17 @@ listgrup = []
 vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
 
+b="\033[0;34m"
+g="\033[1;32m"
+w="\033[1;37m"
+r="\033[1;31m"
+y="\033[1;33m"
+cyan = "\033[0;36m"
+lgray = "\033[0;37m"
+dgray = "\033[1;30m"
+ir = "\033[0;101m"
+reset = "\033[0m"
+
 
 def login():
     os.system('clear')
@@ -63,7 +74,10 @@ def login():
         menu()
     except (KeyError, IOError):
         os.system('clear')
-	print logo
+	print("  ---  ---  ---     --- ").format(g)
+	print("   ------   ----- ----- ")
+	print("  ---  ---  --- --- --- ")
+	print(" >>>>>>>>>>>>>>>>>>>>>>>>")
         print 40 * '\x1b[1;97m\xe2\x95\x90'
         print '\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mLOGIN AKUN FACEBOOK AKUN FB \x1b[1;91m[\xe2\x98\x86]'
         id = raw_input('\x1b[1;91m[+] \x1b[1;36mUsername FB \x1b[1;91m:\x1b[1;92m ')
