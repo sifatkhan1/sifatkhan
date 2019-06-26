@@ -75,14 +75,14 @@ ku='\033[33;1m' #kuning
 echo
 echo
 echo 
-echo $me"  ...    ... ...      ..."
-echo $me"   ...  ...  .....  ....."
-echo $me"    ......   ... .... ..."
-echo $me"   ...  ...  ...  ..  ..."
-echo $me"  ...    ... ...      ..."
-echo $i"  Author : Mr.XbalMeonk "
-echo $bi"  Fb     : Cengir Eea "
-echo $ku"+──────────────────────────+"
+echo me"  ...    ... ...      ..."
+echo me"   ...  ...  .....  ....."
+echo me"    ......   ... .... ..."
+echo me"   ...  ...  ...  ..  ..."
+echo me"  ...    ... ...      ..."
+echo i"  Author : Mr.XbalMeonk "
+echo bi"  Fb     : Cengir Eea "
+echo ku"+──────────────────────────+"
         
         print 40 * '\x1b[1;97m\xe2\x95\x90'
         print '\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mLOGIN AKUN FACEBOOK AKUN FB \x1b[1;91m[\xe2\x98\x86]'
