@@ -84,7 +84,7 @@ def login():
 	print("{}   \  \/  /  {} |   \__/  |  | {} selamat mencoba").format(gr,ye)
 	print("{}   /  /\  \   |  |\__/  |  | ").format(gr)
 	print("{}  /  /  \  \  |  |      |  | ").format(gr)
-	print("{}  ───    ───  ───       ───  ").format(gr)
+	print("{} ----    ---- ----      ----  ").format(gr)
 	print("{}  +-----------------------------+").format(ij)
 	print("{}  |{} Author  : Mr.XbalMeonk      {}| ").format(ye,ij,ye)
 	print("{}  |{} facebook: Cengir Eea        {}| ").format(ye,bi,ye)
