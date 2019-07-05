@@ -74,15 +74,7 @@ def login():
         menu()
     except (KeyError, IOError):
         os.system('clear')
-	print
-	print
-	print
-	print("{}   ___    ___ {} ___       ___  {} welcome to my Tool's").format(gr,gr,ye)
-	print("{}   \  \  /  / {} |  \    /    | {} semoga beruntung").format(gr,ye)
-	print("{}    \  \/  /  {} |   \__/  |  | {} selamat mencoba").format(gr,ye)
-	print("{}    /  /\  \   |  |\__/  |  | ").format(gr)
-	print("{}   /  /  \  \  |  |      |  | ").format(gr)
-	print("{}  ----    ---- ----      ----  ").format(gr)
+	
 	print("{}  +-----------------------------+").format(gr)
 	print("{}  |{} Author  : Mr.XbalMeonk      {}| ").format(ye,gr,ye)
 	print("{}  |{} facebook: Cengir Eea        {}| ").format(ye,bl,ye)
