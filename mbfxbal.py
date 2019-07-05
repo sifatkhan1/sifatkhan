@@ -62,11 +62,7 @@ re="\033[1;31m"
 ye="\033[1;33m"
 ij="\033[32;1m"
 bi="\033[34;1m"
-cyan = "\033[0;36m"
-lgray = "\033[0;37m"
-dgray = "\033[1;30m"
-ir = "\033[0;101m"
-reset = "\033[0m"
+
 
 
 def login():
@@ -79,7 +75,7 @@ def login():
 	print
 	print
 	print
-	print("{}  ___    ___ {} ___       ___  {} welcome to my Tool's").format(gr,ye)
+	print("{}  ___    ___ {} ___       ___  {} welcome to my Tool's").format(ij,ye,ij)
 	print("{}  \  \  /  / {} |  \    /    | {} semoga beruntung").format(gr,ye)
 	print("{}   \  \/  /  {} |   \__/  |  | {} selamat mencoba").format(gr,ye)
 	print("{}   /  /\  \   |  |\__/  |  | ").format(gr)
