@@ -23,7 +23,7 @@ def jalan(z):
         time.sleep(0.01)
 
 
-logo = '\x1b[1;92m\n\xe2\x95\x94\xe2\x95\xa6\xe2\x95\x97\xe2\x94\x8c\xe2\x94\x80\xe2\x94\x90\xe2\x94\xac\xe2\x94\x80\xe2\x94\x90\xe2\x94\xac\xe2\x94\x8c\xe2\x94\x80   \xe2\x95\x94\xe2\x95\x90\xe2\x95\x97\xe2\x95\x94\xe2\x95\x97 \n \xe2\x95\x91\xe2\x95\x91\xe2\x94\x9c\xe2\x94\x80\xe2\x94\xa4\xe2\x94\x9c\xe2\x94\xac\xe2\x94\x98\xe2\x94\x9c\xe2\x94\xb4\xe2\x94\x90\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\xa0\xe2\x95\xa3 \xe2\x95\xa0\xe2\x95\xa9\xe2\x95\x97\n\xe2\x95\x90\xe2\x95\xa9\xe2\x95\x9d\xe2\x94\xb4 \xe2\x94\xb4\xe2\x94\xb4\xe2\x94\x94\xe2\x94\x80\xe2\x94\xb4 \xe2\x94\xb4   \xe2\x95\x9a  \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d \x1b[1;93mv1.6\n\x1b[1;93m* \x1b[1;97mAuthor  \x1b[1;91m: \x1b[1;96mMR.K7C8NG\x1b[1;97m\n\x1b[1;93m* \x1b[1;97mSupport \x1b[1;91m: \x1b[1;96mInDoNeSiA CYBER ErRoR SyStEm\x1b[1;97m[\x1b[1;96m\x1b[1;97m] \x1b[1;97m/ \x1b[1;96mGUNAKAN DENGAN BIJAK \x1b[1;97m/ \x1b[1;96mMR.K7C8NG\n\x1b[1;93m* \x1b[1;97mGitHub  \x1b[1;91m: \x1b[1;92m\x1b[4mhttps://github.com/pashayogi\x1b[0m\n[*] Decompiled by MR.K7C8NG\n'
+logo = '\x1b[1;92m\n\xe2\x95\x94\xe2\x95\xa6\xe2\x95\x97\xe2\x94\x8c\xe2\x94\x80\xe2\x94\x90\xe2\x94\xac\xe2\x94\x80\xe2\x94\x90\xe2\x94\xac\xe2\x94\x8c\xe2\x94\x80   \xe2\x95\x94\xe2\x95\x90\xe2\x95\x97\xe2\x95\x94\xe2\x95\x97 \n \xe2\x95\x91\xe2\x95\x91\xe2\x94\x9c\xe2\x94\x80\xe2\x94\xa4\xe2\x94\x9c\xe2\x94\xac\xe2\x94\x98\xe2\x94\x9c\xe2\x94\xb4\xe2\x94\x90\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\xa0\xe2\x95\xa3 \xe2\x95\xa0\xe2\x95\xa9\xe2\x95\x97\n\xe2\x95\x90\xe2\x95\xa9\xe2\x95\x9d\xe2\x94\xb4 \xe2\x94\xb4\xe2\x94\xb4\xe2\x94\x94\xe2\x94\x80\xe2\x94\xb4 \xe2\x94\xb4   \xe2\x95\x9a  \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d \x1b[1;93mv1.6\n\x1b[1;93m* \x1b[1;97mAuthor  \x1b[1;91m: \x1b[1;96mMr.Xbal Meonk\x1b[1;97m\n\x1b[1;93m* \x1b[1;97mfacebook \x1b[1;91m: \x1b[1;96mCengir Eea\x1b[1;97m[\x1b[1;96m\x1b[1;97m] \x1b[1;97m/ \x1b[1;96mGUNAKAN DENGAN BIJAK \x1b[1;97m/ \x1b[1;96mMr.Xbal Meonk\n\x1b[1;93m* \x1b[1;97mYoutube  \x1b[1;91m: \x1b[1;92m\x1b[4mXbal Meonk\x1b[0m\n[*] Powered by Xbal Meonk\n'
 
 def tik():
     titik = [
@@ -60,7 +60,7 @@ gr="\033[1;32m"
 wh="\033[1;37m"
 re="\033[1;31m"
 ye="\033[1;33m"
-cyan = "\033[0;36m"
+cy = "\033[0;36m"
 lgray = "\033[0;37m"
 dgray = "\033[1;30m"
 ir = "\033[0;101m"
@@ -74,12 +74,18 @@ def login():
         menu()
     except (KeyError, IOError):
         os.system('clear')
-	
-	print("{}  +-----------------------------+").format(gr)
-	print("{}  |{} Author  : Mr.XbalMeonk      {}| ").format(ye,gr,ye)
-	print("{}  |{} facebook: Cengir Eea        {}| ").format(ye,bl,ye)
-	print("{}  |{} Youtube : Xbal Meonk        {}| ").format(ye,re,ye)
-	print("{}  +-----------------------------+").format(gr)   
+	print
+	print("                                     ")
+	print("                                     ")
+	print("{}   +------------------------------+ ").format(gr)
+	print("{}   |   {}TOOL'S  H@CK  FACEBOOK {}    | ").format(gr,cy,gr)
+	print("{}   |------------------------------| ").format(gr)
+	print("{}   |   Author {} : {}Mr.XbalMeonk     | ").format(gr,re,gr)
+	print("{}   | {}  facebook{}:{} Cengir Eea       | ").format(gr,cy,re,gr)
+	print("{}   | {}  Youtube :{} Xbal Meonk       | ").format(gr,re,gr)
+	print("{}   |------------------------------| ").format(gr)
+	print("{}   |    {}SELAMAT  MENCOBA..... {}    | ").format(gr,ye,gr)
+	print("{}   +------------------------------+ ").format(gr)
         print 40 * '\x1b[1;97m\xe2\x95\x90'
         print '\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mLOGIN AKUN FACEBOOK AKUN FB \x1b[1;91m[\xe2\x98\x86]'
         id = raw_input('\x1b[1;91m[+] \x1b[1;36mUsername FB \x1b[1;91m:\x1b[1;92m ')
