@@ -55,6 +55,13 @@ listgrup = []
 vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
 
+GL = "\033[96;1m" # Blue aqua
+BB = "\033[34;1m" # Blue light
+YY = "\033[33;1m" # Yellow light
+GG = "\033[32;1m" # Green light
+WW = "\033[0;1m"  # White light
+RR = "\033[31;1m" # Red light
+CC = "\033[36;1m" # Cyan light
 bl="\033[0;34m"
 gr="\033[1;32m"
 wh="\033[1;37m"
@@ -74,19 +81,22 @@ def login():
         menu()
     except (KeyError, IOError):
         os.system('clear')
-	print
-	print("                                     ")
-	print("                                     ")
-	print("{}   +================================+ ").format(gr)
-	print("{}   |    {}TOOL'S  H@CK  FACEBOOK {}     | ").format(gr,cy,gr)
-	print("{}   |            {}TERBARU            {} | ").format(gr,cy,gr)         
-	print("{}   |--------------------------------| ").format(gr)
-	print("{}   |    Author {} : {}Mr.XbalMeonk      | ").format(gr,re,gr)
-	print("{}   | {}   facebook{}:{} Cengir Eea        | ").format(gr,cy,re,gr)
-	print("{}   | {}   Youtube :{} Xbal Meonk        | ").format(gr,re,gr)
-	print("{}   |--------------------------------| ").format(gr)
-	print("{}   |     {}SELAMAT  MENCOBA.^_^. {}     | ").format(gr,ye,gr)
-	print("{}   +================================+ ").format(gr)
+	print(" ")
+	print(" ")
+        print("     {}>>{}===================================={}>>   ").format(CC,GG,CC)
+        print("     {}|     {}TOOL'S    H4cK   FACEB00K      {} |   ").format(GG,CC,GG)
+        print("     {}|        {} target   TERBARU           {} |   ").format(CC,CC,CC)
+	print("     {}|-------------------------------------|   ").format(CC)
+	print("     {}|         {}<--D A R K  FB-->          {} |   ").format(CC,GG,CC)
+        print("     {}|-------------------------------------|   ").format(CC)
+        print("     {}|   {} AUTHOR    {}:{} Mr. Xbal Meonk      {} |   ").format(CC,GG,CC,GG,CC)
+        print("     {}|   {} facebook  {}: {}Cengir Eea         {}  |   ").format(CC,GG,CC,BB,CC)
+        print("     {}|   {} Youtube   {}:{} Xbal Meonk        {}   |   ").format(CC,GG,CC,RR,CC)
+        print("     {}|-------------------------------------|   ").format(CC)
+        print("     {}|    kata mama {}phising{} boleh yang     |   ").format(CC,YY,CC)
+        print("     {}|   {}   penting tetep {}SHOLAT...{}^_^    {} |   ").format(GG,CC,YY,CC,GG)
+        print("     {}<<{}===================================={}<<   ").format(CC,GG,CC)
+        print("                                                 ")
         print 40 * '\x1b[1;97m\xe2\x95\x90'
         print '\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mLOGIN AKUN FACEBOOK AKUN FB \x1b[1;91m[\xe2\x98\x86]'
         id = raw_input('\x1b[1;91m[+] \x1b[1;36mEmail/no.hp FB \x1b[1;91m:\x1b[1;92m ')
